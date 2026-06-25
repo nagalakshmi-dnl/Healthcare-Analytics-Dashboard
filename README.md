@@ -1,44 +1,25 @@
 # 🏥 Healthcare Operations & Revenue Analytics Dashboard – FY 2026
 
-<p align="center">
-
 ![Stars](https://img.shields.io/github/stars/nagalakshmi-dnl/Healthcare-Analytics-Dashboard?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/nagalakshmi-dnl/Healthcare-Analytics-Dashboard?style=for-the-badge)
 ![License](https://img.shields.io/github/license/nagalakshmi-dnl/Healthcare-Analytics-Dashboard?style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/nagalakshmi-dnl/Healthcare-Analytics-Dashboard?style=for-the-badge)
 
-![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-Analytics-blue?style=for-the-badge)
-![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-Data_Cleaning-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+---
 
+# 🏥 Healthcare Operations & Revenue Analytics Dashboard – FY2026
+
+<p align="center">
+<img src="Screenshots/Dashboard.png" width="100%">
 </p>
-
----
-
-# 📊 Healthcare Operations & Revenue Dashboard – FY 2026
-
-### *Insights into patient trends, revenue drivers, and hospital performance.*
-
----
-
-## 🖼 Dashboard Preview
-
-### Main Dashboard
-
-![Dashboard](Screenshots/Dashboard.png)
-
-### Tooltip Page
-
-![Tooltip](Screenshots/Tooltip.png)
 
 ---
 
 # 📌 Project Overview
 
-This project presents an interactive Healthcare Analytics Dashboard developed using **SQL, Microsoft Excel, and Power BI** to analyze hospital operations, patient demographics, billing trends, insurance performance, and operational efficiency.
+This project analyzes healthcare operations and hospital revenue using **SQL** and **Power BI** to identify patient trends, revenue drivers, admission patterns, insurance performance, and operational efficiency.
 
-The dashboard transforms raw healthcare data into actionable business insights, enabling healthcare administrators and decision-makers to monitor key performance indicators, improve operational planning, and support data-driven decisions.
+The dashboard transforms raw healthcare records into interactive business intelligence, enabling hospitals and healthcare organizations to make informed decisions through visual analytics.
 
 ---
 
@@ -46,166 +27,183 @@ The dashboard transforms raw healthcare data into actionable business insights, 
 
 - Analyze hospital revenue performance
 - Monitor patient admission trends
-- Evaluate medical conditions contributing to revenue
-- Understand patient demographics
-- Compare insurance provider billing
-- Analyze average patient stay duration
-- Build an executive-level interactive dashboard
+- Evaluate average billing amounts
+- Analyze patient demographics
+- Identify top revenue-generating medical conditions
+- Monitor average hospital stay
+- Compare insurance provider performance
+- Support data-driven healthcare decisions
 
 ---
 
 # 📈 Dashboard KPIs
 
 | KPI | Value |
-|------|------:|
-| 💰 Total Revenue | **$25.12M** |
-| 👥 Total Patients | **1,000** |
-| 💵 Average Billing | **$25.12K** |
-| 🏥 Average Length of Stay | **15.66 Days** |
+|------|---------|
+| 💰 Total Revenue | $25.12M |
+| 👨‍⚕️ Total Patients | 1,000 |
+| 💵 Average Billing | $25.12K |
+| 🏥 Average Length of Stay | 15.66 Days |
 
 ---
 
 # 📊 Dashboard Features
 
-✔ Revenue & Patient Trends Over Time
-
-✔ Revenue Contribution by Medical Condition
-
-✔ Patient Distribution by Gender
-
-✔ Patient Distribution by Admission Type
-
-✔ Patient Distribution by Stay Type
-
-✔ Patient Distribution by Age Group
-
-✔ Average Billing by Insurance Provider
-
 ✔ Interactive Filters
 
-- Gender
-- Admission Type
+✔ Gender Analysis
+
+✔ Admission Type Analysis
+
+✔ Revenue Trend Analysis
+
+✔ Patient Trend Analysis
+
+✔ Medical Condition Analysis
+
+✔ Insurance Provider Analysis
+
+✔ Stay Type Distribution
+
+✔ Age Group Distribution
+
+✔ Tooltip Page
 
 ---
 
 # 🛠 Tools & Technologies
 
-| Tool | Purpose |
-|------|---------|
-| Microsoft Excel | Data Cleaning |
-| SQL | Data Analysis |
-| MySQL | Database Management |
-| Power BI Desktop | Dashboard Development |
-| DAX | KPI Calculations |
-| GitHub | Version Control |
+- Microsoft Excel
+- MySQL
+- SQL
+- Power BI Desktop
+- DAX
+- GitHub
 
 ---
 
-# 📂 Dataset Information
+# 📂 Dataset
 
-The simulated healthcare dataset contains approximately **1,000 patient records** with information on:
+The dataset contains simulated healthcare operational data including:
 
 - Patient Demographics
+- Medical Conditions
+- Billing Amount
 - Admission Type
-- Medical Condition
-- Billing
 - Insurance Provider
-- Hospital Stay
-- Revenue Metrics
+- Length of Stay
+- Revenue
+- Hospital Information
+
+Dataset Size
+
+- 1000 Records
 
 ---
 
 # 🗄 SQL Analysis
 
-SQL was used to answer important business questions such as:
+Business questions answered using SQL include:
 
+- Total Revenue
 - Revenue by Medical Condition
-- Average Billing by Insurance Provider
-- Patient Distribution Analysis
-- Admission Type Analysis
-- Revenue Trends
+- Revenue by Insurance Provider
+- Monthly Revenue
+- Admission Analysis
+- Patient Distribution
+- Stay Type Analysis
+- Average Billing
+- Gender Analysis
+
+---
+
+# 📐 DAX Measures
+
+The dashboard includes custom DAX calculations:
+
+- Total Revenue
+- Total Patients
+- Average Billing
 - Average Length of Stay
-- Age Group Analysis
-
----
-
-# 📊 Power BI Dashboard Features
-
-- KPI Cards
-- Interactive Slicers
-- Dynamic Visualizations
-- Executive Dashboard
-- Tooltip Page
-- Business Intelligence Reporting
-
----
-
-# 📐 DAX Measures Used
-
-```
-Total Revenue
-
-Total Patients
-
-Average Billing
-
-Average Length of Stay
-```
+- Revenue by Condition
+- Revenue Trend
+- Patient Distribution
 
 ---
 
 # 📊 Dashboard Visualizations
 
-- Revenue Trend Analysis
-- Revenue Contribution by Medical Condition
-- Gender Distribution
+The dashboard contains:
+
+- Revenue Trend Over Time
+- Revenue by Medical Condition
+- Revenue by Insurance Provider
+- Patient Distribution by Gender
 - Patient Distribution by Admission Type
 - Patient Distribution by Stay Type
-- Age Group Analysis
-- Insurance Provider Analysis
+- Patient Distribution by Age Group
+- KPI Cards
+- Interactive Slicers
+- Tooltip Page
 
 ---
 
-# 💡 Key Business Insights
+# 💡 Key Insights
 
-- Asthma generated the highest overall revenue.
-- Male patients slightly outnumber female patients.
-- Elective admissions account for the highest number of patients.
-- Long Stay patients form the largest patient category.
-- Blue Cross provides the highest average billing.
-- Patient volume fluctuates consistently throughout the years.
+- Asthma generated the highest hospital revenue.
+- Male patients accounted for approximately 52.5% of admissions.
+- Elective admissions represented the largest admission category.
+- Long-stay patients formed the majority of hospital stays.
+- Blue Cross showed the highest average patient billing.
+- Average patient billing exceeded $25K.
+- Average patient stay was approximately 15.66 days.
 
 ---
 
 # 📌 Business Recommendations
 
-- Improve operational planning for high-volume admission categories.
-- Optimize resources for long-stay patients.
-- Strengthen relationships with high-value insurance providers.
-- Monitor seasonal patient trends for capacity planning.
-- Focus on preventive care for high-revenue medical conditions.
+- Improve operational planning for long-stay patients.
+- Focus preventive care initiatives on high-revenue medical conditions.
+- Optimize insurance claim processing.
+- Monitor patient admission trends continuously.
+- Utilize dashboard insights for hospital capacity planning.
+
+---
+
+# 📸 Dashboard Preview
+
+## Main Dashboard
+
+<p align="center">
+<img src="Screenshots/Dashboard.png" width="100%">
+</p>
+
+---
+
+## Tooltip Page
+
+<p align="center">
+<img src="Screenshots/Tooltip.png" width="70%">
+</p>
 
 ---
 
 # 🔄 Project Workflow
 
-```text
+```
 Raw Dataset
       │
       ▼
-Excel Data Cleaning
+Excel Cleaning
       │
       ▼
-SQL Database
+MySQL Database
       │
       ▼
-Business Analysis using SQL
+SQL Analysis
       │
       ▼
-Power BI Data Model
-      │
-      ▼
-DAX Measures
+Power BI
       │
       ▼
 Interactive Dashboard
@@ -220,21 +218,24 @@ Business Insights
 
 ```text
 Healthcare-Analytics-Dashboard
+
 │
+
 ├── Dataset
-│   └── healthcare_final_dataset.csv
-│
+│ └── healthcare_final_dataset.csv
+
 ├── SQL
-│   └── Healthcare_SQL_Queries.sql
-│
+│ └── Healthcare_SQL_Queries.sql
+
 ├── PowerBI
-│   └── Healthcare_Dashboard.pbix
-│
+│ └── Healthcare_Dashboard.pbix
+
 ├── Screenshots
-│   ├── Dashboard.png
-│   └── Tooltip.png
-│
+│ ├── Dashboard.png
+│ └── Tooltip.png
+
 ├── README.md
+
 └── LICENSE
 ```
 
@@ -244,11 +245,11 @@ Healthcare-Analytics-Dashboard
 
 | File | Description |
 |------|-------------|
-| [📁 Dataset](Dataset/healthcare_final_dataset.csv) | Cleaned Healthcare Dataset |
-| [🗄 SQL Script](SQL/Healthcare_SQL_Queries.sql) | SQL Queries & Business Analysis |
-| [📊 Power BI Dashboard](PowerBI/Healthcare_Dashboard.pbix) | Interactive Power BI Dashboard |
-| [🖼 Dashboard Screenshot](Screenshots/Dashboard.png) | Main Dashboard |
-| [💬 Tooltip Screenshot](Screenshots/Tooltip.png) | Interactive Tooltip Page |
+| 📁 [Dataset](Dataset/healthcare_final_dataset.csv) | Cleaned Healthcare Dataset |
+| 🗄 [SQL Queries](SQL/Healthcare_SQL_Queries.sql) | SQL Business Analysis |
+| 📊 [Power BI Dashboard](PowerBI/Healthcare_Dashboard.pbix) | Interactive Dashboard |
+| 🖼 [Dashboard Screenshot](Screenshots/Dashboard.png) | Dashboard Overview |
+| 💬 [Tooltip Screenshot](Screenshots/Tooltip.png) | Tooltip Page |
 
 ---
 
@@ -256,13 +257,11 @@ Healthcare-Analytics-Dashboard
 
 - Data Cleaning
 - SQL Query Writing
-- MySQL
-- Power BI
-- DAX
-- Data Visualization
+- Database Management
 - Business Intelligence
 - Dashboard Design
 - KPI Development
+- Data Visualization
 - Healthcare Analytics
 - Data Storytelling
 
@@ -270,25 +269,11 @@ Healthcare-Analytics-Dashboard
 
 # 🔗 Quick Access
 
-📊 **Power BI Dashboard**
+📊 [Power BI Dashboard](PowerBI/Healthcare_Dashboard.pbix)
 
-➡️ [Healthcare Dashboard](PowerBI/Healthcare_Dashboard.pbix)
+🗄 [SQL Queries](SQL/Healthcare_SQL_Queries.sql)
 
-🗄 **SQL Queries**
-
-➡️ [Healthcare SQL Queries](SQL/Healthcare_SQL_Queries.sql)
-
-📁 **Dataset**
-
-➡️ [Healthcare Dataset](Dataset/healthcare_final_dataset.csv)
-
-🖼 **Dashboard Screenshot**
-
-➡️ [Dashboard Preview](Screenshots/Dashboard.png)
-
-💬 **Tooltip Page**
-
-➡️ [Tooltip Preview](Screenshots/Tooltip.png)
+📁 [Dataset](Dataset/healthcare_final_dataset.csv)
 
 ---
 
@@ -296,18 +281,17 @@ Healthcare-Analytics-Dashboard
 
 **Naga Lakshmi Devanaboina**
 
-*M.Sc. Biotechnology | Data Analytics Enthusiast*
+M.Sc Biotechnology | Data Analytics Enthusiast
 
 ### Skills
 
 - SQL
-- MySQL
 - Power BI
 - Excel
+- MySQL
 - Tableau
-- Data Analytics
 
-GitHub:
+GitHub
 
 https://github.com/nagalakshmi-dnl
 
@@ -315,18 +299,10 @@ https://github.com/nagalakshmi-dnl
 
 # 📜 License
 
-Licensed under the **MIT License**.
+This project is licensed under the MIT License.
 
 ---
 
-# ⭐ If you found this project useful
+# ⭐ If you found this project useful, consider giving it a Star!
 
-⭐ Star this repository
-
-🍴 Fork this repository
-
-📢 Share with others
-
----
-
-> **Turning healthcare data into actionable business intelligence through SQL and Power BI.**
+It motivates me to build more Data Analytics projects and share them with the community.
